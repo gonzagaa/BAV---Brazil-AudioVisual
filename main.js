@@ -20,13 +20,20 @@ ScrollReveal({
     origin: 'top',
     distance: '100px',
     duration: '700'
-}).reveal(`.home-image`);
+}).reveal(
+`#home-image,
+.container,
+#about,
+.card,
+#depositions,
+.feedback-input,
+label`);
 
 ScrollReveal({
-    origin: 'top',
+    origin: 'bottom',
     distance: '100px',
     duration: '2000'
-}).reveal(`.input`);
+}).reveal(`footer`);
 
 /*Depositions Caroussel slider swiper */
 
