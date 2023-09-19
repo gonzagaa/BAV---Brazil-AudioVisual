@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Brazil AudioVisual</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Quattrocento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+ 
+  </head>
+  <body onscroll="onScroll()" class="">
+
+    <nav id="navigation" class="">
+
+        <div class="wrapper">
+
+            <a class="logo" href="#home">
+                <span>BAV - Brazil Audiovisual</span>
+            </a>
+            
+            <div class="menu">
+ 
+                 <ul class="social-links">
+                     <li>
+                         <a target="_blank" href="#">
+                           
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                                 
+                         </a>
+                     </li>
+ 
+                     <li>
+                         <a target="_blank" href="#">
+                            
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.9997 11.3701C16.1231 12.2023 15.981 13.0523 15.5935 13.7991C15.206 14.5459 14.5929 15.1515 13.8413 15.5297C13.0898 15.908 12.2382 16.0397 11.4075 15.906C10.5768 15.7723 9.80947 15.3801 9.21455 14.7852C8.61962 14.1903 8.22744 13.4229 8.09377 12.5923C7.96011 11.7616 8.09177 10.91 8.47003 10.1584C8.84829 9.40691 9.45389 8.7938 10.2007 8.4063C10.9475 8.0188 11.7975 7.87665 12.6297 8.00006C13.4786 8.12594 14.2646 8.52152 14.8714 9.12836C15.4782 9.73521 15.8738 10.5211 15.9997 11.3701Z" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M17.5 6.5H17.51" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                            
+                         </a>
+                     </li>
+                 </ul>
+ 
+             </div>
+
+            <button 
+            aria-expanded="false"
+            aria-label="Abrir menu"
+            onclick="openMenu()" 
+            class="open-menu">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 20H30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10 12H30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M18 28L30 28" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> 
+            </button>
+            <button
+            aria-expanded="true"
+            aria-label="Fechar menu"
+            onclick="closeMenu()" 
+            class="close-menu">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 10L10 30M10 10L30 30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+            </button>
+
+        </div>
+           
+    </nav>
+
+    <header id="home">
+
+        <div id="home-image" class="wrapper">
+            <div class="content">
+                <h1>Transform Your Videos with
+                    Expert Editing</h1>
+    
+                <p>Enhance your video content to captivate your audience and leave a
+                    lasting impression.</p>
+    
+                <a href="#contact"><button>Contact Us Now</button></a>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="work">
+
+        <div class="wrapper">
+
+            <h2>Our Work</h2>
+
+            <div class="works">
+
+                <div class="model-1 grid">
+
+                    <div class="container">
+                        <img src="./assets/close-up-shot-of-digital-video-editor-sitting-at-m-2022-05-13-00-47-15-utc.webp" alt="Image for gallery 1">
+                    </div>
+        
+                    <div class="container">
+                        <img loading="lazy" src="./assets/close-up-of-sound-mixer-for-video-and-movies-2022-05-30-21-26-14-utc.webp" alt="Image for gallery 2">
+                    </div>
+        
+                    <div class="container">
+                        <img src="./assets/back-view-of-a-young-white-man-video-editor-2022-01-28-03-25-47-utc.webp" alt="Image for gallery 3">
+                    </div>
+
+                </div>
+
+                <div class="model-2 grid">
+
+                    <div class="container big">
+                        <img src="./assets/back-view-of-a-young-white-man-video-editor-2021-09-04-09-28-55-utc.webp" alt="Image for gallery 4">
+                    </div>
+    
+                    <div class="container big">
+                        <img src="./assets/3d-house-interior-2021-12-09-02-43-17-utc.webp" alt="Image for gallery 5">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+    </section>
+
+    <section id="about">
+        <div class="wrapper">
+
+            <h2>About us</h2>
+        
+            <div class="content">
+                <p>
+                    Brazil Audiovisual Productions is a leading
+                    video editing company based in Brazil.
+                    Operating for over 6 years with a team of highly
+                    skilled professionals, we specialize in
+                    transforming raw footage into captivating
+                    visual stories. Our commitment to excellence
+                    and attention to detail ensure that every project
+                    we undertake is delivered with exceptional
+                    quality and creativity. Whether you need video
+                    editing for commercials, documentaries,
+                    corporate videos, social media and more, we
+                    have the expertise and tools to bring your
+                    vision to life. Come with Brazil Audiovisual
+                    Productions to elevate your content and make
+                    an impact on your audience.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="services">
+
+        <div class="wrapper">
+
+            <h2>Our Services</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <img src="./assets/content-creator-editing-video-footage-2022-09-27-18-04-42-utc.webp" alt="imagem1">
+                    
+                    <header class="description">
+                        <h4>Video Editing</h4>
+                        <p>Professional and creative video editing services
+                            to enhance your content and captivate your
+                            audience.</p>
+                    </header>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/content-creator-editing-video-montage-on-film-prod-2022-05-18-23-24-38-utc.webp" alt="imagem2">
+
+                    <header class="description">
+                        <h4>Color Grading</h4>
+                        <p>Precise color grading for your videos, adding
+                            depth and a unique visual style to your footage.</p>
+                    </header>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/editing-7320119.webp" alt="imagem3">
+                    
+                    <header class="description">
+                        <h4>Motion Graphics</h4>
+                        <p>Engage your viewers with stunning motion
+                            graphics, bringing life and dynamics to your
+                            videos.</p>
+                    </header>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/editing-7320125.webp" alt="imagem3">
+                    
+                    <header class="description">
+                        <h4>Live Editing</h4>
+                        <p>Everything you need to make your Lives
+                            incredible to watch after they end.</p>
+                    </header>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/editing-7320126.webp" alt="imagem3">
+                    
+                    <header class="description">
+                        <h4>3D Animation</h4>
+                        <p>Bring your 3D projects to life with high quality,
+                            from character design, modeling, texturing and
+                            costumes, to facial expressions, precise
+                            movements and lighting. Created exclusively to
+                            tell the story of your brand, service, product or
+                            company.</p>
+                    </header>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/empty-space-with-podcast-equipment-to-record-talki-2022-06-07-18-12-59-utc.webp" alt="imagem3">
+                    
+                    <header class="description">
+                        <h4>Videos for YouTube</h4>
+                        <p>We transform your recorded material into
+                            engaging stories for your audience on YouTube.</p>
+                    </header>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="depositions">
+        <div class="wrapper">
+            <h2>Depositions</h2>
+
+            <div class="testimonials swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial swiper-slide">
+                        <blockquote>
+                            <p>
+                                <span>&ldquo;</span>
+                                Brazil audiovisual Productions is amazing! Their video editing skills are top-notch and their team is extremely professional. They transformed my raw footage into a stunning final product. Thank you for exceeding my expectations! 
+                            </p>
+                            <cite>
+                                - Eduardo
+                            </cite>
+                        </blockquote>
+                    </div>
+    
+                    <div class="testimonia swiper-slide">
+                        <blockquote>
+                            <p>
+                                <span>&ldquo;</span>
+                                I´m extremely grateful for the exceptional video editing services provided by Brazil Audiovisual Productions. They transformed my footage into a masterpiece, exceeding my expectations. Their expertise and attention to detail are truly commendable. Thank you for bringing my vision to life!
+                            </p>
+                            <cite>
+                                - Isabella
+                            </cite>
+                        </blockquote>
+                    </div>
+    
+                    <div class="testimonial swiper-slide">
+                        <blockquote>
+                            <p>
+                                <span>&ldquo;</span>
+                                Brazil Audiovisual Productions exceeded my expectations with their exceptional video editing services. Their team was professional, creative, and attentive to my needs. I highly recommend them for anyone looking for high-quality video production in Brazil. Thank you for an amazing experience!
+                            </p>
+                            <cite>
+                                - Sophie
+                            </cite>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="wrapper">
+            <header>
+                <h2>Contact Us Now</h2>
+                <p>Fill out the form below to get in touch with us.
+                    We are here to help you with all your video
+                    editing requirements. Send us a message and
+                    let's discuss your project!</p>
+            </header>
+
+            <form action="https://formsubmit.co/iigust4vo@gmail.com" 
+            method="POST">
+                <input type="hidden" name="_next" value="https://127.0.0.1:5501/success.html"/>
+                <input type="hidden" name="_autoresponse" value="Obrigado! Recebemos sua mensagem."/>
+
+                <label for="name">Name</label>
+                <input name="name" type="text" required class="feedback-input"/>   
+
+                <label for="email">Email</label>
+                <input name="email" type="email" required class="feedback-input"/>
+
+                <label for="textarea">Speak your idea</label>
+                <textarea name="text" class="feedback-input"></textarea>
+
+                <div class="input">
+                    <p>This site is protected by reCAPTCHA and <br>the Google <span>Privacy Policy</span> and
+                    <span>Terms of Service</span> apply.</p>
+                    
+                    <button type="submit">Send</button>
+                </div>
+                
+              </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrapper">
+            <div class="content">
+                <h2>BAV - Brazil Audiovisual</h2>
+
+                <span><a href="#home">Home</a></span>
+
+                <ul>
+                    <li>
+                        <a href="">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15.9997 11.3701C16.1231 12.2023 15.981 13.0523 15.5935 13.7991C15.206 14.5459 14.5929 15.1515 13.8413 15.5297C13.0898 15.908 12.2382 16.0397 11.4075 15.906C10.5768 15.7723 9.80947 15.3801 9.21455 14.7852C8.61962 14.1903 8.22744 13.4229 8.09377 12.5923C7.96011 11.7616 8.09177 10.91 8.47003 10.1584C8.84829 9.40691 9.45389 8.7938 10.2007 8.4063C10.9475 8.0188 11.7975 7.87665 12.6297 8.00006C13.4786 8.12594 14.2646 8.52152 14.8714 9.12836C15.4782 9.73521 15.8738 10.5211 15.9997 11.3701Z" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M17.5 6.5H17.51" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./main.js"></script>
+
+  </body>
+</html>
+
