@@ -1,3 +1,4 @@
+/*menu on scroll*/
 function onScroll () {
 
     if(scrollY > 0) {
@@ -8,6 +9,7 @@ function onScroll () {
 
 }
 
+/*button close and open menu*/
 function openMenu() {
     document.body.classList.add('menu-expanded')
 }
@@ -16,6 +18,7 @@ function closeMenu() {
     document.body.classList.remove('menu-expanded')
 }
 
+/*animation scrollreveal*/
 ScrollReveal({
     origin: 'top',
     distance: '100px',
@@ -36,7 +39,6 @@ ScrollReveal({
 }).reveal(`footer`);
 
 /*Depositions Caroussel slider swiper */
-
 const swiper = new Swiper('.swiper', {
     slidesPerView: 1,
     pagination: {
