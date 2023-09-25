@@ -6,9 +6,9 @@
 }
 
 :root {
-  --primary-color: #000A19;
-  --second-color: #683C56;
-  --button-color: #E0345C; 
+  --primary-color: #009c3b;
+  --second-color: #ffdf00;
+  --button-and-nav-color: #000A19;
   --color-text: #fff;
 
   --nav-height: 7.2rem;
@@ -43,7 +43,7 @@ body {
   text-align: center;
   overflow: overlay;
 
-  background: linear-gradient(90deg, #000A19 20%, #914657 100%);
+  background: linear-gradient(90deg, #009c3b 20%, #ffdf00 100%);
   background-size: 200% 200%;
 
   animation: gradient 8s ease infinite;
@@ -64,12 +64,12 @@ section {
 
 ::-webkit-scrollbar {
   width: 1rem;
-  background-color: var(--primary-color);
+  background-color: var(--button-and-nav-color);
 }
 
 ::-webkit-scrollbar-thumb {
   width: 1rem;
-  background-color: #011a3e;
+  background-color: #001839;
 }
 
 /* NAVIGATION =================== */
@@ -82,7 +82,7 @@ nav {
   position: fixed;
   top: 0;
 
-  background-color: var(--primary-color);
+  background-color: var(--button-and-nav-color);
   width: 100vw;
 
   z-index: 100;
@@ -158,7 +158,7 @@ body.menu-expanded .close-menu {
 body.menu-expanded .menu {
   top: 0;
   left: 0;
-  background: var(--primary-color);
+  background: var(--button-and-nav-color);
 
   width: 100vw;
   height: 20vh;
@@ -225,8 +225,8 @@ body.menu-expanded button path {
 
 
 #home .content button {
-  background-color: var(--button-color);
-  color: var(--color-text);
+  background-color: #fff;
+  color: var(--button-and-nav-color);
 
   border: none;
   border-radius: .8rem;
@@ -237,7 +237,7 @@ body.menu-expanded button path {
 }
 
 #home .content button:hover {
-  background-color: #bb1b41;
+  background-color: #e6e6e6;
 }
 
 /* Work =================== */
@@ -348,7 +348,7 @@ body.menu-expanded button path {
 
 #depositions blockquote {
     padding: 2rem;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.08);
     border-radius: 2rem;
   }
 
@@ -362,7 +362,7 @@ body.menu-expanded button path {
   }
 
 #depositions blockquote p span {
-    color: var(--button-color);
+    color: #fff;
     font: 700 4rem serif;
 
     position: absolute;
@@ -399,7 +399,7 @@ body.menu-expanded button path {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: var(--button-color);
+  background-color: #fff;
 }
 
 /* CONTACT =================== */
@@ -443,7 +443,7 @@ body.menu-expanded button path {
 }
 
 .feedback-input:focus { 
-  border:2px solid var(--button-color); 
+  border:2px solid #fff; 
 }
 
 textarea {
@@ -455,7 +455,7 @@ textarea {
 [type="submit"] {
   font-family: 'Quattrocento', serif;
   width: fit-content;
-  background: var(--button-color);
+  background: var(--button-and-nav-color);
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -468,7 +468,7 @@ textarea {
   font-weight:400;
 }
 [type="submit"]:hover {
-   background: #bb1b41; 
+   background: #001839; 
   }
 
 form .input p {
@@ -489,10 +489,7 @@ form .input {
 /* FOOTER =================== */
 
 footer {
-  backdrop-filter: blur(5px) saturate(180%);
-  -webkit-backdrop-filter: blur(5px) saturate(180%);
-  background-color: rgba(17, 25, 40, 0.89);
-  border-radius: 12px;
+  background-color: var(--button-and-nav-color);
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
