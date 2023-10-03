@@ -33,7 +33,3 @@ function closeMenu() {
 
 /*animation scrollreveal*/
 ScrollReveal().reveal('.container', { delay: 2000 });
-
-
-
-
