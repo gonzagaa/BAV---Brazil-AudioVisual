@@ -1,0 +1,65 @@
+/*RESET CSS =================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary-color: #009c3b;
+    --second-color: #ffdf00;
+    --button-and-nav-color: #000A19;
+    --color-text: #fff;
+  
+    --nav-height: 7.2rem;
+  
+    font-size: 62.5%; /* 1rem = 10px */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  p {
+    font-family: 'Quattrocento', serif;
+  }
+  
+  /*BASE =================== */
+  body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+  
+    text-align: center;
+    overflow: overlay;
+  
+    background: linear-gradient(90deg, #009c3b 20%, #ffdf00 100%);
+    background-size: 200% 200%;
+  
+    animation: gradient 8s ease infinite;
+  }
+  
+  .wrapper {
+    width: min(50rem, 100%);
+    margin-inline: auto;
+  
+    padding-inline: 2.4rem;
+  }
+  
+  section {
+    padding-block: 7rem;
+  }
+
+  /*PORTFOLIO =================== */
+
+

@@ -32,31 +32,8 @@ function closeMenu() {
 }
 
 /*animation scrollreveal*/
-ScrollReveal({
-    origin: 'top',
-    distance: '100px',
-    duration: '700'
-}).reveal(
-`#home-image,
-.container,
-#about,
-.card,
-#depositions,
-.feedback-input,
-label`);
+ScrollReveal().reveal('.container', { delay: 2000 });
 
-ScrollReveal({
-    origin: 'bottom',
-    distance: '100px',
-    duration: '2000'
-}).reveal(`footer`);
 
-/*Depositions Caroussel slider swiper */
-const swiper = new Swiper('.swiper', {
-    slidesPerView: 1,
-    pagination: {
-        el: '.swiper-pagination'
-    },
-    mousewheel: true,
-    keyboard: true,
-});
+
+
