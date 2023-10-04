@@ -42,11 +42,14 @@
   
     text-align: center;
     overflow: overlay;
-  
-    background: linear-gradient(90deg, #009c3b 20%, #ffdf00 100%);
+
     background-size: 200% 200%;
   
     animation: gradient 8s ease infinite;
+  }
+
+  #body-portfolio {
+    background: #141414;
   }
   
   .wrapper {
@@ -55,11 +58,166 @@
   
     padding-inline: 2.4rem;
   }
+
+  .wrapper-gallery {
+    margin-inline: auto;
+  
+    padding-inline: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+  }
   
   section {
     padding-block: 7rem;
   }
 
   /*PORTFOLIO =================== */
+#portfolio {
+  margin-top: 7rem;
+}
+
+#portfolio .swiper-button-next,
+#portfolio .swiper-button-prev {
+  width: 3.5rem;
+  height: 4.5rem;
+
+  transition: all 200ms ease-in-out;
+}
+
+#portfolio .swiper-button-next:hover,
+#portfolio .swiper-button-prev:hover {
+  transform: scale(1.2);
+}
+
+#portfolio h2 {
+  color: var(--color-text);
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+#portfolio .gallery {
+  text-align: left;
+}
+
+#portfolio .swiper-slide {
+  transition: all 200ms ease-in-out;
+}
+
+#portfolio .swiper-slide .snippet-ytb-lazy img {
+  aspect-ratio: 16/9;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+
+  position: absolute;
+}
+
+#portfolio .swiper-slide iframe {
+  aspect-ratio: 16/9;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.swiper-wrapper:has(.swiper-slide:hover) .swiper-slide:not(:hover) {
+  opacity: .6;
+  scale: .98;
+}
+
+#portfolio .pagination div[class^="swiper-button"]::after {
+  display: none;
+}
+
+.snippet-ytb-lazy {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: #000;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.snippet-ytb-lazy .player,
+.snippet-ytb-lazy iframe {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+}
+
+.snippet-ytb-lazy .player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.snippet-ytb-lazy svg {
+  z-index: 3;
+  transition: all 300ms;
+}
+
+.snippet-ytb-lazy svg:hover {
+  transform: scale(1.2);
+}
+
+.player span {
+  color: var(--color-text);
+  font-size: 2rem;
+
+  display: block;
+  width: 100%;
+  padding: 2.4rem;
+
+  position: absolute;
+  bottom: 0;
+
+  background-image: linear-gradient(to bottom, transparent, #000 80%);
+
+  visibility: hidden;
+  opacity: 0;
+
+  transition: all 500ms;
+}
+
+.swiper-slide:hover span{
+  visibility: visible;
+  opacity: 1;
+}
+
+/*SHORTS*/
+
+#portfolio .shorts {
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 200ms ease-in-out;
+}
+
+#portfolio .swiper-slide.shorts img {
+  aspect-ratio: 9/16;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+
+  position: absolute;
+}
+
+.snippet-ytb-lazy.shorts .player,
+.snippet-ytb-lazy.shorts iframe {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+}
 
 
+.snippet-ytb-lazy.shorts {
+  width: 100%;
+  aspect-ratio: 9/16;
+  background-color: #000;
+  border-radius: 1rem;
+  overflow: hidden;
+}
