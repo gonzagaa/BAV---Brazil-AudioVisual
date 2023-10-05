@@ -34,7 +34,8 @@ animation3D5.addEventListener('click', shorts);
 function snippetYtbLazyPlay(evt) {
   evt.currentTarget.removeEventListener('click', snippetYtbLazyPlay);
 
-  evt.currentTarget.innerHTML = `<iframe src="https://www.youtube.com/embed/${evt.currentTarget.dataset.id}?si=-ABWb5jI9qz0lfvY&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+  evt.currentTarget.innerHTML = `
+  <iframe id="panda-8bf9cadb-d39d-4a22-955f-80630fe33578"  src="https://player-vz-22f7cecb-cb7.tv.pandavideo.com.br/embed/?v=8bf9cadb-d39d-4a22-955f-80630fe33578" style="border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen=true fetchpriority="high"></iframe>`
 }
 
 function shorts(evt) {
