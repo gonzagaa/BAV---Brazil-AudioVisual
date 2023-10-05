@@ -97,9 +97,7 @@
                         <div class="snippet-ytb-lazy" id="videoEditing1" data-id="bhpGE4sL5R8">
 
                           <div class="player">
-                            <img src="../assets/close-up-of-sound-mixer-for-video-and-movies-2022-05-30-21-26-14-utc.webp" alt="">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="#fff" viewBox="0 0 256 256"><path d="M128,32a96,96,0,1,0,96,96A96,96,0,0,0,128,32ZM112,160V96l48,32Z" opacity="0.2"></path><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm36.44-94.66-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17Z"></path></svg>
-                            <span>Titulo do video</span>
+                            <iframe id="panda-8bf9cadb-d39d-4a22-955f-80630fe33578" src="https://player-vz-22f7cecb-cb7.tv.pandavideo.com.br/embed/?v=8bf9cadb-d39d-4a22-955f-80630fe33578" style="border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen=true width="720" height="360" fetchpriority="high"></iframe>
                           </div>
 
                         </div>
@@ -447,6 +445,8 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./portfolio.js"></script>
     <script src="../main.js"></script>
+
+    <script>if(!document.querySelector('script[src="https://player.pandavideo.com.br/api.v2.js"]')){let s=document.createElement('script');s.src='https://player.pandavideo.com.br/api.v2.js'; s.async=true; document.head.appendChild(s);} window.pandascripttag = window.pandascripttag || [];window.pandascripttag.push(function (){const panda_id_player = 'panda-8bf9cadb-d39d-4a22-955f-80630fe33578';const p=new PandaPlayer(panda_id_player,{onReady(){p.loadWindowScreen({panda_id_player});}});})</script>
 
   </body>
 </html>
