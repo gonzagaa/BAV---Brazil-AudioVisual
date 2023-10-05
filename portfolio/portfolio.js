@@ -35,7 +35,7 @@ function snippetYtbLazyPlay(evt) {
   evt.currentTarget.removeEventListener('click', snippetYtbLazyPlay);
 
   evt.currentTarget.innerHTML = `
-  <iframe id="panda-8bf9cadb-d39d-4a22-955f-80630fe33578"  src="https://player-vz-22f7cecb-cb7.tv.pandavideo.com.br/embed/?v=8bf9cadb-d39d-4a22-955f-80630fe33578" style="border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen=true fetchpriority="high"></iframe>`
+  <iframe src="https://player-vz-22f7cecb-cb7.tv.pandavideo.com.br/embed/?v=8bf9cadb-d39d-4a22-955f-80630fe33578" style="border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen=true fetchpriority="high"></iframe>`
 }
 
 function shorts(evt) {
