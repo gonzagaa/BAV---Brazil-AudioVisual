@@ -55,6 +55,14 @@
   
     padding-inline: 2.4rem;
   }
+
+  .wrapper-carrossel {
+    width: min(60rem, 100%);
+
+    margin-inline: auto;
+  
+    padding-inline: .5rem;
+  }
   
   section {
     padding-block: 7rem;
@@ -141,7 +149,7 @@
 @media (min-width: 1024px) {
 
     /* GERAL ===================  */
-    .wrapper {
+    .wrapper-carrossel {
       width: min(112rem, 100%);
     }
 
