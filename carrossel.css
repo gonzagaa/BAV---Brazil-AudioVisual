@@ -153,6 +153,10 @@
       width: min(112rem, 100%);
     }
 
+    .wrapper {
+        width: min(112rem, 100%);
+      }
+
     section#carrossel .swiper-slide .card {
         width: 90%;
     }
