@@ -582,6 +582,39 @@ footer .content {
     display: none;
   }
 
+  nav#navigation .menu  {
+   display: flex;
+   gap: 3.2rem;
+  }
+
+  nav#navigation .menu a {
+    text-decoration: none;
+  }
+
+  nav#navigation .menu a .portfolio-button {
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 700;
+  }
+
+  nav#navigation .menu .portfolio-button {
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    outline: 1px solid var(--color-text);
+
+    transition: all 200ms ease-in-out;
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(8, 13, 27, 0.75);
+
+  }
+
+  nav#navigation .menu .portfolio-button:hover {
+    background-color: var(--color-text);
+    color: var(--button-and-nav-color);
+  }
+
    /*navigation media*/
   nav#navigation .social-links {
     display: flex;
