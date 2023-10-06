@@ -32,4 +32,5 @@ function closeMenu() {
 }
 
 /*animation scrollreveal*/
-ScrollReveal().reveal('.container', { delay: 2000 });
+
+/*carroussel*/

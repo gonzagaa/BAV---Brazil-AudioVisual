@@ -1,0 +1,167 @@
+/*RESET CSS =================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary-color: #009c3b;
+    --second-color: #ffdf00;
+    --button-and-nav-color: #000A19;
+    --color-text: #fff;
+  
+    --nav-height: 7.2rem;
+  
+    font-size: 62.5%; /* 1rem = 10px */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  p {
+    font-family: 'Quattrocento', serif;
+  }
+  
+  /*BASE =================== */
+  body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+  
+    text-align: center;
+    overflow: overlay;
+  
+    background: linear-gradient(90deg, #009c3b 20%, #ffdf00 100%);
+    background-size: 200% 200%;
+  
+    animation: gradient 8s ease infinite;
+  }
+  
+  .wrapper {
+    width: min(50rem, 100%);
+    margin-inline: auto;
+  
+    padding-inline: 2.4rem;
+  }
+  
+  section {
+    padding-block: 7rem;
+  }
+
+  /*carrossel =================== */
+  #carrossel .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #carrossel .swiper-slide .card {
+    padding-bottom: 3rem;
+    border-radius: 4rem;
+
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+
+    width: 80%;
+  }
+
+  #carrossel .swiper-slide .card img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 4rem 4rem 0 0;
+    
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
+  }
+
+  #carrossel .swiper-slide .card .description {
+    margin-top: 1.8rem;
+    color: #000;
+    padding-inline: 2rem;
+  }
+
+  #carrossel .swiper-slide .card .description h4 {
+    font-size: 3rem;
+  }
+
+  #carrossel .swiper-slide .card .description p {
+    margin-top: 1.3rem;
+    font-size: 1.6rem;
+  }
+
+  #carrossel .pagination div[class^="swiper-button"]::after {
+    display: none;
+  }
+
+  #portfolio .swiper-button-next,
+#portfolio .swiper-button-prev {
+  width: 3.5rem;
+  height: 4.5rem;
+
+  transition: all 200ms ease-in-out;
+}
+
+#portfolio .swiper-button-next:hover,
+#portfolio .swiper-button-prev:hover {
+  transform: scale(1.2);
+}
+
+#carrossel #videoEditing {
+    margin-top: 5.8rem;
+}
+
+#carrossel #animation3D {
+    margin-top: 5rem;
+}
+
+#carrossel #animation2D {
+    margin-top: 6rem;
+}
+
+#carrossel #Youtube {
+    margin-top: 1rem;
+}
+
+@media (min-width: 1024px) {
+
+    /* GERAL ===================  */
+    .wrapper {
+      width: min(112rem, 100%);
+    }
+
+    section#carrossel .swiper-slide .card {
+        width: 90%;
+    }
+
+    section#carrossel #videoEditing {
+        margin-top: 0rem;
+    }
+    
+    section#carrossel #animation3D {
+        margin-top: 0rem;
+    }
+    
+    section#carrossel #animation2D {
+        margin-top: 0rem;
+    }
+    
+    section#carrossel #Youtube {
+        margin-top: 0rem;
+    }
+}

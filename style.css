@@ -321,52 +321,6 @@ body.menu-expanded button path {
   color: var(--second-color);
 }
 
-/* SERVICES =================== */
-
-#services .cards {
-  gap: 4rem;
-}
-
-#services header h4 {
-  font-size: 2.8rem;
-  font-weight: 300;
-  color: var(--color-text);
-
-  margin-top: 1rem;
-  margin-bottom: 1.6rem;
-}
-
-#services header p {
-  color: var(--color-text);
-  font-size: 1.6rem;
-  opacity: .8;
-}
-
-#services h2 {
-  color: var(--color-text);
-  font-weight: 400;
-  font-size: 4rem;
-  
-  margin-bottom: 2.5rem;
-}
-
-#services .cards .card img {
-  width: 100%;
-  aspect-ratio: 16/11;
-  object-fit: cover;
-  border-radius: 1.6rem;
-
-  box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.75);
-
-  transition: all 300ms ease-in-out;
-}
-
-#services .cards .card img:hover {
-  transform: scale(1.05);
-}
-
 /* DEPOSITIONS ===================
 #depositions h2 {
     color: var(--color-text);
@@ -526,7 +480,6 @@ form .input {
 }
 
 /* FOOTER =================== */
-
 footer {
   background-color: var(--button-and-nav-color);
   border: 1px solid rgba(255, 255, 255, 0.125);
@@ -573,7 +526,6 @@ footer .content {
 }
 
 /* buttonInstagram =================== */
-
 #buttonInstagram {
   position: fixed;
   bottom: 1rem;
@@ -603,7 +555,6 @@ footer .content {
 }
 
 /* RESPONSIVE =================== */
-
 @media (min-width: 1024px) {
 
 /* GERAL ===================  */
@@ -655,13 +606,6 @@ footer .content {
   section#work .model-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-
-   /*services media*/
-  section#services .wrapper .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
   }
 
    /*contact media*/
