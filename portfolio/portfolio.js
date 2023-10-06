@@ -41,7 +41,7 @@ function snippetYtbLazyPlay(evt) {
 function shorts(evt) {
   evt.currentTarget.removeEventListener('click', shorts);
 
-  evt.currentTarget.innerHTML = `<iframe src="https://player-vz-22f7cecb-cb7.tv.pandavideo.com.br/embed/?v=${evt.currentTarget.dataset.id}&iosFakeFullscreen=true" style="border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen=true width="720" height="360" fetchpriority="high"></iframe>`
+  evt.currentTarget.innerHTML = `<iframe src="https://player-vz-22f7cecb-cb7.tv.pandavideo.com.br/embed/?v=${evt.currentTarget.dataset.id}&iosFakeFullscreen=true" style="border:none;" allow="accelerometer;gyroscope;autoplay=true;encrypted-media;picture-in-picture" allowfullscreen=true width="720" height="360" fetchpriority="high"></iframe>`
 }
 
 var swiper = new Swiper(".mySwiper", {
