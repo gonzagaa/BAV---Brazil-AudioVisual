@@ -530,6 +530,7 @@ footer .content {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
+  z-index: 100;
 
   opacity: 0;
   visibility: hidden;
