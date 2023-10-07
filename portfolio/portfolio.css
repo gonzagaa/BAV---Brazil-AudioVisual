@@ -109,6 +109,8 @@
 
 #portfolio .gallery {
   text-align: left;
+
+  padding-top: 10rem;
 }
 
 #portfolio .swiper-slide {

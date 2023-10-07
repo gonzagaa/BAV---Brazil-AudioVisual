@@ -491,12 +491,6 @@ footer .logo {
   transition: all 200ms ease-in-out;
 }
 
-footer .logo:hover {
-  filter: drop-shadow(6px 5px 19px rgba(46, 46, 46, 1));
-
-  transform: scale(1.1) rotate(360deg);
-}
-
 footer span a {
   color: #cac9c9;
   text-transform: uppercase;
