@@ -300,6 +300,7 @@ body.menu-expanded button path {
   -moz-box-shadow: 0px 0px 35px -8px rgba(0,0,0,0.75);
 
   margin-top: -7.5rem;
+  padding-bottom: 10rem;
 }
 
 #about h2 {
