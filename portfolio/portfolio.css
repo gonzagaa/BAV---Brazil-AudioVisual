@@ -199,8 +199,13 @@
   opacity: 1;
 }
 
-/*SHORTS*/
 
+/*SHORTS*/
+#animation-3d-shorts {
+  display: none;
+}
+
+/*
 #portfolio .shorts {
   width: 30rem;
   display: flex;
@@ -233,4 +238,4 @@
   background-color: #000;
   border-radius: 1rem;
   overflow: hidden;
-}
+} */
