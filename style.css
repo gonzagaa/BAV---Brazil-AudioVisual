@@ -161,7 +161,7 @@ body.menu-expanded .menu {
   background: var(--button-and-nav-color);
 
   width: 100vw;
-  height: 20vh;
+  height: 25vh;
 
   padding-top: var(--nav-height);
 
@@ -186,6 +186,19 @@ body.menu-expanded nav button {
 
 body.menu-expanded button path {
   stroke: var(--color-text);
+}
+
+body.menu-expanded .portfolio-button {
+  background-color: var(--color-text);
+  padding: 1.5rem 2.5rem;
+  margin-top: 2rem;
+  border-radius: 5rem;
+
+  font-weight: 700;
+}
+
+body.menu-expanded .portfolio-button:hover {
+  background-color: #cac9c9;
 }
 
 /*HOME =================== */

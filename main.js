@@ -30,7 +30,3 @@ function openMenu() {
 function closeMenu() {
     document.body.classList.remove('menu-expanded')
 }
-
-/*animation scrollreveal*/
-
-/*carroussel*/
