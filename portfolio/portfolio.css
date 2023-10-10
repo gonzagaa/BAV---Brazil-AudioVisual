@@ -75,7 +75,7 @@
 
   /*PORTFOLIO =================== */
 #portfolio {
-  margin-top: 7rem;
+  margin-top: 3rem;
 }
 
 #portfolio h1 {
@@ -85,7 +85,7 @@
 
   font-family: 'Oswald', sans-serif;
 
-  margin-bottom: 2rem;
+  margin-bottom: -7rem;
 }
 
 #portfolio .swiper-button-next,
@@ -111,6 +111,12 @@
   text-align: left;
 
   padding-top: 10rem;
+  
+  margin-top: -10rem;
+}
+
+#portfolio .gallery#videoEditing {
+  margin-top: 0;
 }
 
 #portfolio .swiper-slide {
