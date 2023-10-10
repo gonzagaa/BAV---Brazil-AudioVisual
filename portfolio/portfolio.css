@@ -112,7 +112,7 @@
 
   padding-top: 10rem;
   
-  margin-top: -10rem;
+  margin-top: -6rem;
 }
 
 #portfolio .gallery#videoEditing {
@@ -245,3 +245,9 @@
   border-radius: 1rem;
   overflow: hidden;
 } */
+
+@media (min-width: 1024px) {
+  section#portfolio .gallery {
+    margin-top: -10rem;
+  }
+}
